@@ -1,0 +1,30 @@
+{
+  "name": "@yowainwright/test-typescipt-package",
+  "version": "0.0.1",
+  "description": "A basic TypeScript package to test configuration, building, and publishing",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yowainwright/test-typescript-package.git"
+  },
+  "keywords": [
+    "test",
+    "publish-test"
+  ],
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yowainwright/test-typescript-package/issues"
+  },
+  "homepage": "https://github.com/yowainwright/test-typescript-package#readme",
+  "dependencies": {
+    "pnpm": "^6.13.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "only-allow": "^1.0.0"
+  }
+}
