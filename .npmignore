@@ -13,14 +13,8 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
-.nyc_output
-
 # Dependency directories
 node_modules/
-
-# TypeScript v1 declaration files
-typings/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -34,5 +28,3 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
-
-dist
