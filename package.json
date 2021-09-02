@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "A basic TypeScript package to test configuration, building, and publishing",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yowainwright/test-typescript-package.git"
@@ -26,5 +23,8 @@
   },
   "devDependencies": {
     "only-allow": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
