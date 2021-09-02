@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/node': ^16.7.10
   only-allow: ^1.0.0
   pnpm: ^6.13.0
   typescript: ^4.3.5
@@ -10,9 +11,14 @@ dependencies:
   typescript: 4.3.5
 
 devDependencies:
+  '@types/node': 16.7.10
   only-allow: 1.0.0
 
 packages:
+
+  /@types/node/16.7.10:
+    resolution: {integrity: sha512-S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==}
+    dev: true
 
   /ansi-align/3.0.0:
     resolution: {integrity: sha512-ZpClVKqXN3RGBmKibdfWzqCY4lnjEuoNzU5T0oEFpfd/z5qJHVarukridD4juLO2FXMiwUQxr9WqQtaYa8XRYw==}
